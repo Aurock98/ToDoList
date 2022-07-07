@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,200&display=swap');
+
+body {
+    background-color: #0a1f44;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 2.5em;
+    color: white;
+}
+
+h1 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.container {
+
+    padding-top: 10px;
+    border: whitesmoke;
+    border-radius: 10px;
+
+}
+
+.input {
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.boton-agregar,
+.boton-remover {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    color: white;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0.5;
+}
+
+.boton-agregar:hover,
+.boton-remover:hover {
+    opacity: 1;
+}
+
+.boton-editar:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.item-input {
+
+    height: 50px;
+    width: 450px;
+    padding: 0px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    color: whitesmoke;
+    background: none;
+
+}
+
+.item {
+    margin: 10px;
+}
+
+.boton-editar {
+    height: 50px;
+    width: 50px;
+    margin: 0px 5px;
+    border: none;
+    background: none;
+    color: #62d0ff;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+.boton-remover {
+    height: 50px;
+    width: 50px;
+    margin: 0px 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    font-size: 20px;
+    color: whitesmoke;
+}
