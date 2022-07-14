@@ -39,6 +39,12 @@ h1 .letter {
     font-size: 18px;
 }
 
+@media screen and (max-width: 600px) {
+    .input {
+        width: auto;
+    }
+}
+
 .boton-agregar,
 .boton-remover {
     width: 50px;
